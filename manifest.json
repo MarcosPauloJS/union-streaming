@@ -1,0 +1,9 @@
+{
+    "name": "Union Streaming",
+    "version": "0.1",
+    "description": "uma extenção para facilitar o acesso a serviços de Streaming.",
+    "manifest_version": 2,
+    "page_action": {
+        "default_popup": "popup.html"
+    }
+}
