@@ -2,18 +2,18 @@
 # union-streaming
 
 ## Objetivo 
-  Facilitar o uso de multiplos serviços de streaming os centralizando e facilitando o acesso e troca entre eles além de contar com um       serviço de busca que procura por um titulo em todos os serviços avisando em qual ele esta disponivel e se desejado redirecinar o usuario   direto para o titulo no serviço.
+  Facilitar o uso de múltiplos serviços de streaming os centralizando e facilitando o acesso e troca entre eles além de contar com um       serviço de busca que procura por um título em todos os serviços avisando em qual ele esta disponível e se desejado redirecionar o         usuário direto para o título na plataforma de streaming.
 
-## tecnologias usadas
+## Tecnologias usadas
   ### Front-End
   * HTML
   * CSS
   * Javascript
   * node
-  * axios(framework para realizar requisiçoes http)
+  * axios(Framework para realizar requisições http)
 
   ### Back-End
   * Node
   * express
 
-  *Durante o desenvoolvimento do projeto pode surgir necessidade de adicionar novas tecnologias* 
+  *Durante o desenvolvimento do projeto pode surgir necessidade de adicionar novas tecnologias.* 
