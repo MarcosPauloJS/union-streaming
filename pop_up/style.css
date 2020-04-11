@@ -96,7 +96,6 @@ body{
 }
 
 .streaming-services >.container-streamings >.streaming{
-    display: inline-block;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,4 +119,15 @@ body{
     font-size: 1.2em;
     text-align: center;
     line-height: 16px;
+}
+
+.main-footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.main-footer >p{
+    text-align: center;
+    font-size: 1.1em;
 }
