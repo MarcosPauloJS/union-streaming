@@ -21,18 +21,18 @@ body{
     align-items: center;
 }
 
-.brand{
+.main-header >.brand{
     display: flex;
     align-items: center;
 }
 
-.brand >img{
+.main-header >.brand >img{
     width: 30px;
     height: 28px;
     margin: 0 5px;
 }
 
-.brand >h1{
+.main-header >.brand >h1{
     color: #343232;
     font-size: 1.7em;
     font-weight: 300;
@@ -42,4 +42,82 @@ body{
     width: 28px;
     height: 28px;
     margin: 0 5px;
+}
+
+.search-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.search-bar> .search{
+    width: 92%;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border: 1px solid #675D5D;
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.search-bar> .search >input{
+    width: 90%;
+    margin: 3px 0 3px 5px;
+    font-size: 1.4em;
+    border: 0;
+    background: transparent;
+    color: #675D5D;
+    border-right: 2px solid #675D5D;
+}
+
+.search-bar> .search >img{
+   margin-right: 8px;
+}
+
+.streaming-services{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.streaming-services >.container-streamings{
+    width: 92%;
+    display: flex;
+    align-items: baseline;
+    justify-content:space-between;
+    border: 1px solid #675D5D;
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.streaming-services >.container-streamings >.streaming{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0 7.5px;
+}
+
+.streaming-services >.container-streamings >.streaming:first-child{
+    margin-left: 10px;
+}
+
+.streaming-services >.container-streamings >.streaming:last-child{
+    margin-right: 10px;
+}
+
+.streaming-services >.container-streamings >.streaming >img{
+}
+
+.streaming-services >.container-streamings >.streaming >p{
+    margin-top: 4px;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 16px;
 }
