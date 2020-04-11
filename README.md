@@ -1,4 +1,4 @@
-![Logo do union streaming](https://github.com/MarcosPauloJS/union-streaming/blob/master/assets/union_icon_128.png)
+![logo do union streaming](https://github.com/MarcosPauloJS/union-streaming/blob/master/assets/logo/union_icon_128.png?raw=true)
 # union-streaming
 
 ## Objetivo 
