@@ -6,10 +6,20 @@
         "persistent": false,
         "scripts": ["background_script.js"]
       },
-      "permissions": ["https://*.google.com/", "activeTab"],
+      "permissions": ["tabs", "http://*/*", "activeTab"],
       "browser_action": {
         "default_icon": "assets/logo/union_icon_16.png",
         "default_popup": "pop_up/pop_up.html",
         "default_title": "Union Streaming"
-      }
+      },
+      "content_scripts": [
+          {
+            "matches": [
+              "<all_urls>"
+            ],
+            "js": ["content.js"]
+          }
+        ],
+        "content_security_policy":"script-src 'self' https://apis.google.com; object-src 'self'"
+  
     }

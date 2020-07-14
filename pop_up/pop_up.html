@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Pavanam&display=swap" rel="stylesheet">
+    <meta charset="utf-8"> 
 </head>
 <body>
 
@@ -11,38 +12,35 @@
             <img src="../assets/logo/union_icon_48.png"/>
             <h1>Union Streaming</h1>
         </div>
-        <img src="../assets/icons/close.svg"/>
+        <button class="close-popup">
+            <img src="../assets/icons/close.svg"/>
+        </button>
     </header>
 
-    <section class="search-bar">
-        <div class="search">
-            <input placeholder="Pesquisar" type="text">
-            <img src="../assets/icons/lupa.png" alt="uma ilustração de uma lupa"/>
-        </div>
-    </section>
-
     <section class="streaming-services">
-        <div class="container-streamings">
-            <div class="streaming">
-                <img src="https://i.imgur.com/44eYEMq.png"/>
-                <p>Netflix</p>
+        <div class="favorites-streamings">
+            <div class="wraper">
+
             </div>
-            <div class="streaming">
-                <img src="https://i.imgur.com/DpEjPxk.png"/>
-                <p>Amazon <br/>Prime Video</p>
-            </div>
-            <div class="streaming">
-                <img src="https://i.imgur.com/6wrSNJN.png"/>
-                <p>Disney +</p>
-            </div>
-            <div class="streaming">
-                <img src="https://i.imgur.com/A2EcsNL.png"/>
-                <p>HBO GO</p>
-            </div>
+            <button class="button-showfavorites">Adicionar +</button>
         </div>
     </section>
     <footer class="main-footer">
-        <p>Copyright &#169; 2020 Marcos Paulo. All rights reserved.</p>
+        <p>Desevolvedor: Marcos Paulo</p>
+        <a target="_blank" href="https:/github.com/MarcosPauloJS">
+            <img src="../assets/icons/arrow.png" alt="ilusttração de uma flexa apontada a direita"/>
+            GitHub
+        </a>
     </footer>
+    
+    <script src="./js/manager-popup.js"></script>
+    <script src="./js/acess-favorites.js"></script>
+    <script src="./js/consult-local-storage.js"></script>
+    <script src="./js/request-api.js"></script>
+    <script src="./js/list-all-streamings.js"></script>
+    <script src="./js/manager-favorites.js"></script>
+    <script src="pop_up.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/$VERSION/dragula.min.js'></script>
+
 </body>
 </html>

@@ -1,0 +1,12 @@
+function initialize(){
+    listFavorite()
+}
+
+initialize()
+
+
+
+
+
+
+
